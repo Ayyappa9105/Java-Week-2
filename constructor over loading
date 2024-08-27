@@ -1,0 +1,16 @@
+class Col
+{
+    Col()
+    {
+       System.out.println("Default Constructor");
+    }
+    Col(int a)
+    {
+    System.out.println("value of a is "+a);
+    }
+    public static void main(String args[])
+    {
+    Col ob1=new Col();
+    Col ob2=new Col(7);
+    }
+}
