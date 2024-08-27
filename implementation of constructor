@@ -1,0 +1,16 @@
+class Con
+{
+    Con()
+    {
+       System.out.println("Default Constructor");
+    }
+    public static void main(String args[])
+    {
+       Con a=new Con();
+    }
+}
+
+
+
+//output
+//Default Constructor
